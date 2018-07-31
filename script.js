@@ -1,0 +1,1 @@
+function getChars() {var i=1;while (String.fromCharCode(i)!==String.fromCharCode(333333333333333333333333333333)) {i++;} var arr = [];for(var a = 0; a<i; a++) {arr.push(String.fromCharCode(a+1));} return arr.join();}
